@@ -44373,7 +44373,7 @@ var Component = __webpack_require__(2)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\Phabiulla\\Desktop\\HareephChat\\resources\\assets\\js\\components\\Conversation.vue"
+Component.options.__file = "C:\\Users\\Phabiulla\\Documents\\hareeph-chat\\resources\\assets\\js\\components\\Conversation.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Conversation.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -44384,9 +44384,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-fbd11198", Component.options)
+    hotAPI.createRecord("data-v-6b15854b", Component.options)
   } else {
-    hotAPI.reload("data-v-fbd11198", Component.options)
+    hotAPI.reload("data-v-6b15854b", Component.options)
   }
 })()}
 
@@ -44401,13 +44401,13 @@ var Component = __webpack_require__(2)(
   /* script */
   __webpack_require__(31),
   /* template */
-  __webpack_require__(52),
+  __webpack_require__(50),
   /* scopeId */
   null,
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\Phabiulla\\Desktop\\HareephChat\\resources\\assets\\js\\components\\GroupChat.vue"
+Component.options.__file = "C:\\Users\\Phabiulla\\Documents\\hareeph-chat\\resources\\assets\\js\\components\\GroupChat.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] GroupChat.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -44418,9 +44418,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-62517296", Component.options)
+    hotAPI.createRecord("data-v-06b8f3df", Component.options)
   } else {
-    hotAPI.reload("data-v-62517296", Component.options)
+    hotAPI.reload("data-v-06b8f3df", Component.options)
   }
 })()}
 
@@ -44435,13 +44435,13 @@ var Component = __webpack_require__(2)(
   /* script */
   __webpack_require__(32),
   /* template */
-  __webpack_require__(50),
+  __webpack_require__(51),
   /* scopeId */
   null,
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\Phabiulla\\Desktop\\HareephChat\\resources\\assets\\js\\components\\Groups.vue"
+Component.options.__file = "C:\\Users\\Phabiulla\\Documents\\hareeph-chat\\resources\\assets\\js\\components\\Groups.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Groups.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -44452,9 +44452,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-439c6a76", Component.options)
+    hotAPI.createRecord("data-v-29fdf61c", Component.options)
   } else {
-    hotAPI.reload("data-v-439c6a76", Component.options)
+    hotAPI.reload("data-v-29fdf61c", Component.options)
   }
 })()}
 
@@ -44469,13 +44469,13 @@ var Component = __webpack_require__(2)(
   /* script */
   __webpack_require__(33),
   /* template */
-  __webpack_require__(51),
+  __webpack_require__(52),
   /* scopeId */
   null,
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\Phabiulla\\Desktop\\HareephChat\\resources\\assets\\js\\components\\UsersGroup.vue"
+Component.options.__file = "C:\\Users\\Phabiulla\\Documents\\hareeph-chat\\resources\\assets\\js\\components\\UsersGroup.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] UsersGroup.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -44486,9 +44486,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-4b69a048", Component.options)
+    hotAPI.createRecord("data-v-33f2481f", Component.options)
   } else {
-    hotAPI.reload("data-v-4b69a048", Component.options)
+    hotAPI.reload("data-v-33f2481f", Component.options)
   }
 })()}
 
@@ -44497,6 +44497,106 @@ module.exports = Component.exports
 
 /***/ }),
 /* 50 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', [_c('div', {
+    staticClass: "panel panel-default"
+  }, [_c('div', {
+    staticClass: "panel-heading",
+    attrs: {
+      "id": "accordion"
+    }
+  }, [_c('span', {
+    staticClass: "glyphicon glyphicon-comment"
+  }), _vm._v(" " + _vm._s(_vm.window_name) + "\n            ")]), _vm._v(" "), _c('div', {
+    staticClass: "panel-collapse collapse in"
+  }, [_c('div', {
+    staticClass: "panel-body chat-panel",
+    staticStyle: {
+      "height": "calc(100vh - 120px)"
+    }
+  }, [_c('ul', {
+    staticClass: "chat"
+  }, _vm._l((_vm.conversations), function(conversation) {
+    return _c('li', [_vm._m(0, true), _vm._v(" "), _c('div', {
+      staticClass: "chat-body clearfix"
+    }, [_vm._m(1, true), _vm._v(" "), _c('p', [_vm._v("\n                                " + _vm._s(conversation.message) + "\n                            ")])])])
+  }))]), _vm._v(" "), _c('div', {
+    staticClass: "panel-footer"
+  }, [_c('div', {
+    staticClass: "input-group"
+  }, [_c('input', {
+    directives: [{
+      name: "model",
+      rawName: "v-model",
+      value: (_vm.message),
+      expression: "message"
+    }],
+    staticClass: "form-control input-sm",
+    attrs: {
+      "id": "btn-input",
+      "type": "text",
+      "placeholder": "Type your message here...",
+      "autofocus": ""
+    },
+    domProps: {
+      "value": (_vm.message)
+    },
+    on: {
+      "keyup": function($event) {
+        if (!('button' in $event) && _vm._k($event.keyCode, "enter", 13, $event.key, "Enter")) { return null; }
+        _vm.store()
+      },
+      "input": function($event) {
+        if ($event.target.composing) { return; }
+        _vm.message = $event.target.value
+      }
+    }
+  }), _vm._v(" "), _c('span', {
+    staticClass: "input-group-btn"
+  }, [_c('button', {
+    staticClass: "btn btn-success btn-sm",
+    attrs: {
+      "id": "btn-chat"
+    },
+    on: {
+      "click": function($event) {
+        $event.preventDefault();
+        _vm.store()
+      }
+    }
+  }, [_vm._v("\n                            Send")])])])])])])])
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('span', {
+    staticClass: "chat-img pull-left"
+  }, [_c('img', {
+    staticClass: "img-circle",
+    staticStyle: {
+      "padding": "0 6px 0 6px"
+    },
+    attrs: {
+      "src": "http://placehold.it/50/55C1E7/fff&text=R",
+      "alt": "User Avatar"
+    }
+  })])
+},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    staticClass: "header"
+  }, [_c('strong', {
+    staticClass: "primary-font"
+  }, [_vm._v("teste")])])
+}]}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-06b8f3df", module.exports)
+  }
+}
+
+/***/ }),
+/* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -44510,12 +44610,12 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-439c6a76", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-29fdf61c", module.exports)
   }
 }
 
 /***/ }),
-/* 51 */
+/* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -44623,107 +44723,7 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-4b69a048", module.exports)
-  }
-}
-
-/***/ }),
-/* 52 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', [_c('div', {
-    staticClass: "panel panel-default"
-  }, [_c('div', {
-    staticClass: "panel-heading",
-    attrs: {
-      "id": "accordion"
-    }
-  }, [_c('span', {
-    staticClass: "glyphicon glyphicon-comment"
-  }), _vm._v(" " + _vm._s(_vm.window_name) + "\n            ")]), _vm._v(" "), _c('div', {
-    staticClass: "panel-collapse collapse in"
-  }, [_c('div', {
-    staticClass: "panel-body chat-panel",
-    staticStyle: {
-      "height": "calc(100vh - 120px)"
-    }
-  }, [_c('ul', {
-    staticClass: "chat"
-  }, _vm._l((_vm.conversations), function(conversation) {
-    return _c('li', [_vm._m(0, true), _vm._v(" "), _c('div', {
-      staticClass: "chat-body clearfix"
-    }, [_vm._m(1, true), _vm._v(" "), _c('p', [_vm._v("\n                                " + _vm._s(conversation.message) + "\n                            ")])])])
-  }))]), _vm._v(" "), _c('div', {
-    staticClass: "panel-footer"
-  }, [_c('div', {
-    staticClass: "input-group"
-  }, [_c('input', {
-    directives: [{
-      name: "model",
-      rawName: "v-model",
-      value: (_vm.message),
-      expression: "message"
-    }],
-    staticClass: "form-control input-sm",
-    attrs: {
-      "id": "btn-input",
-      "type": "text",
-      "placeholder": "Type your message here...",
-      "autofocus": ""
-    },
-    domProps: {
-      "value": (_vm.message)
-    },
-    on: {
-      "keyup": function($event) {
-        if (!('button' in $event) && _vm._k($event.keyCode, "enter", 13, $event.key, "Enter")) { return null; }
-        _vm.store()
-      },
-      "input": function($event) {
-        if ($event.target.composing) { return; }
-        _vm.message = $event.target.value
-      }
-    }
-  }), _vm._v(" "), _c('span', {
-    staticClass: "input-group-btn"
-  }, [_c('button', {
-    staticClass: "btn btn-success btn-sm",
-    attrs: {
-      "id": "btn-chat"
-    },
-    on: {
-      "click": function($event) {
-        $event.preventDefault();
-        _vm.store()
-      }
-    }
-  }, [_vm._v("\n                            Send")])])])])])])])
-},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('span', {
-    staticClass: "chat-img pull-left"
-  }, [_c('img', {
-    staticClass: "img-circle",
-    staticStyle: {
-      "padding": "0 6px 0 6px"
-    },
-    attrs: {
-      "src": "http://placehold.it/50/55C1E7/fff&text=R",
-      "alt": "User Avatar"
-    }
-  })])
-},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: "header"
-  }, [_c('strong', {
-    staticClass: "primary-font"
-  }, [_vm._v("teste")])])
-}]}
-module.exports.render._withStripped = true
-if (false) {
-  module.hot.accept()
-  if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-62517296", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-33f2481f", module.exports)
   }
 }
 
@@ -44846,7 +44846,7 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-fbd11198", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-6b15854b", module.exports)
   }
 }
 
