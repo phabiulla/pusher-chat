@@ -212,7 +212,7 @@ iframe {
 .wrap-login100 {
     width: 450px;
     background: #fff;
-    border-radius: 3px;
+    border-radius: 50px;
     overflow: hidden;
 }
 
@@ -260,7 +260,7 @@ iframe {
     display: block;
     width: 100%;
     background: #e6e6e6;
-    height: 50px;
+    height: 40px;
     border-radius: 3px;
     padding: 0 30px 0 65px;
 }
@@ -338,6 +338,19 @@ iframe {
     display: none;
 }
 
+.label-link100 {
+    font-weight: bold;
+    font-family: Raleway-Regular;
+    font-size: 16px;
+    color: #999999;
+    line-height: 1.2;
+
+    display: block;
+    position: relative;
+    padding-left: 26px;
+    cursor: pointer;
+}
+
 .label-checkbox100 {
     font-family: Raleway-Regular;
     font-size: 16px;
@@ -404,7 +417,7 @@ iframe {
     text-transform: uppercase;
 
     width: 100%;
-    height: 50px;
+    height: 40px;
     border-radius: 3px;
     background: #d33f8d;
     display: -webkit-box;

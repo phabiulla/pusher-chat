@@ -44712,9 +44712,9 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       staticClass: "meta"
     }, [_c('p', {
       staticClass: "name"
-    }, [_vm._v(_vm._s(u.nick))]), _vm._v(" "), _c('p', {
+    }, [_vm._v(_vm._s(u.nick))]), _vm._v(" "), (u.last_message) ? _c('p', {
       staticClass: "preview"
-    }, [_vm._v(_vm._s(u.slogan))])])])])
+    }, [_vm._v(_vm._s(u.last_message.message))]) : _vm._e()])])])
   }))]), _vm._v(" "), _c('div', {
     staticClass: "panel-footer text-center"
   })])

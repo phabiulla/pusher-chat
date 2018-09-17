@@ -56,6 +56,12 @@
                         </label>
                     </div>
 
+                    <div class="contact100-form-checkbox m-l-4">
+                        <a class="label-link100" href="{{ route('password.request') }}">
+                            Forgot Your Password?
+                        </a>
+                    </div>
+
                     <div class="container-login100-form-btn p-t-25">
                         <button type="submit" class="login100-form-btn">
                             Login
@@ -83,7 +89,7 @@
 							Not a member?
 						</span>
 
-                        <a class="txt1 bo1 hov1" href="#">
+                        <a class="txt1 bo1 hov1" href="{{route('register')}}">
                             Sign up now
                         </a>
                     </div>

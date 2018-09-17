@@ -32,7 +32,7 @@
                         <img v-bind:src="u.avatar_url" alt="User Avatar" class="img-circle" />
                         <div class="meta">
                             <p class="name">{{u.nick}}</p>
-                            <p class="preview">{{u.slogan}}</p>
+                            <p class="preview" v-if="u.last_message">{{u.last_message.message}}</p>
                         </div>
                     </div>
                 </li>
