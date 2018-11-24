@@ -1,0 +1,10 @@
+#Run migrate
+php artisan migrate
+
+#Create keys of Pusher
+https://pusher.com/
+
+#Config keys in .env file
+
+#Start broadcasting listen
+php artisan queue:listen
