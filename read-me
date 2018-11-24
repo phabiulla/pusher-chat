@@ -1,6 +1,9 @@
 #Run migrate
 php artisan migrate
 
+#Run composer
+composer install/ composer dump
+
 #Create keys of Pusher
 https://pusher.com/
 

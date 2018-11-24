@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class ConversationsIndividual extends Model
 {
-    protected $table = "conversations_individual";
+    protected $table    = "conversations_individual";
     protected $fillable = ['message', 'user_id', 'receiver_id'];
 
     public function user()
